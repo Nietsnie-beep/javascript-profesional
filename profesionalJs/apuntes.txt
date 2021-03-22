@@ -1,0 +1,52 @@
+Promesas
+Para crear las promesas usamos la clase Promise. El constructor de Promise recibe un sólo argumento, un callback con dos parámetros, resolve y reject. resolve es la función a ejecutar cuando se resuelve y reject cuando se rechaza.
+
+El async/await es sólo syntax sugar de una promesa, por debajo es exactamente lo mismo.
+
+La clase Promise tiene algunos métodos estáticos bastante 
+
+Promise.all. Da error si una de las promesas es rechazada.
+Promise.race. Regresa sólo la promesa que se resuelva primero.
+
+
+Patrón Singleton y Casos de Uso
+Es un patrón que te asegura que una clase solo tiene una instancia. Esta única instancia puede ser consumida por cualquier otro objeto.
+
+¿Cómo funciona el Patrón Observer?
+En esta clase Richard Kaufman, tu profesor en el Curso profesional de JavaScript, nos explica el funcionamiento del patrón observer y como implementarlo.
+
+El patrón observer se compone de un sujeto que ofrece mecanismos de suscripción y desuscripción a múltiples observadores que quieren ser notificados de los cambios en dicho sujeto. Cada observador expone un método de update que es usado por el sujeto para notificar cualquier cambio a todos los suscritos.
+
+Es uno de los patrones más utilizados, algunos ejemplos típicos son:
+
+Newsletter
+Sockets
+Listeners en páginas web
+
+
+
+Añade nuevas responsabilidades a un objeto de forma dinámica permitiendo así extender su funcionalidad sin tener que usar subclases.
+
+41
+42
+Pause
+Mute
+
+
+Current Time 
+0:12
+/
+Duration 
+8:15
+1.5xPlayback Rate
+Captions
+Auto (720p)
+
+Picture-in-Picture
+Fullscreen
+Open Chromecast menu
+Reportar un problema
+Implementación del patrón Decorator
+Patrón Decorator y Casos de Uso
+Añade nuevas responsabilidades a un objeto de forma dinámica permitiendo así extender su funcionalidad sin tener que usar subclases.
+
